@@ -4,6 +4,7 @@
   "description": "test",
   "main": "app.js",
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.16.4"
   },
   "devDependencies": {},
@@ -11,5 +12,17 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "prathik",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Prathik-Somanath/Rail_Development.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Prathik-Somanath/Rail_Development/issues"
+  },
+  "homepage": "https://github.com/Prathik-Somanath/Rail_Development#readme",
+  "keywords": [
+    "admin",
+    "page"
+  ]
 }

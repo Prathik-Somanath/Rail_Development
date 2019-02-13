@@ -3,10 +3,9 @@ var constants = require('./constants');
 var app = express();
 
 
- 
-// setting up the templating view engine
+ // setting up the templating view engine
 app.set('view engine', 'ejs');
-console.log(constants[0].rsn);
+console.log(constants[0].name);
  
 app.get('/', function(request, response){    
     response.render('index', {title: 'My Homepage', msg: 'Hello World'});
@@ -15,11 +14,11 @@ app.get('/', function(request, response){
 // for users list page
 app.get('/users', function(request, response){    
 
-    response.render('users', {users: constants[0]});
+    response.render('users', {users: constants});
 });
  
 
  
-app.listen(3000, function(){
-    console.log('Server running at port 3000: http://127.0.0.1:3000');
+app.listen(8080, function(){
+    console.log('Server running at port 8080: http://127.0.0.1:8080');
 });
