@@ -1,0 +1,16 @@
+
+	
+<html>
+    <head>
+        <title>All Users</title>
+    </head>
+    <body>
+        <h1>All Users</h1>
+        <div>
+
+            <% users.forEach(function(user){ %>
+                <p><%= user.name %> <a href='/user/<%= user.rsn %>'>View Details</a></p>
+            <% }) %>
+        </div>
+    </body>
+</html>
