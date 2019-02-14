@@ -10,15 +10,18 @@
         <title>All Members</title>
     </head>
     <body>
-        <h1>All Members</h1>
-        <div>
-             <table>
+        <h1 class = "center-align">All Members</h1>
+        <div class = "container">
+             <table class = "highlight striped">
                 <thead>
                     <tr>
                         <th>RSN</th>
                         <th>NAME</th>
-                        <th>AGE</th>
-                        <th>EMAIL</th>
+                        <th>BRANCH</th>
+                        <th>GENDER</th>
+                        <th>Phone no.</th>
+                        <th>ROLE</th>
+                        <th>Login Status</th>
                      </tr>
                 </thead>
                 <tbody>
@@ -27,8 +30,11 @@
                         <tr>
                           <th><%= user.rsn %> <a href='/user/<%= user.name %>'></a></th>
                           <th><%= user.name %> </th>
-                          <th><%= user.age %> </th>
-                          <th><%= user.email %></th>
+                          <th><%= user.branch %> </th>
+                          <th><%= user.gender %></th>
+                          <th><%= user.phno %></th>
+                          <th><%= user.role %></th>
+                          <th><%= user.loginStatus %></th>
                         </tr>   
                       <% }) %>
                                      

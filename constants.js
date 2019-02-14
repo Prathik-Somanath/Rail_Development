@@ -1,25 +1,37 @@
 module.exports = [{
-        rsn: 1,
+        rsn: 'RSK17CS023',
         name: 'Prajwal',
-         age: 19,
-        email: 'prajwal@gmail.com'
+        branch: 'CS',
+        gender:'M',
+        phno: 'prajwal@gmail.com',
+        role: 'Members',
+        loginStatus: 'NO'
     },
     {
-        rsn: 2,
-        name: 'tarun',
-        age: 80,
-        email: 'tarun@example.com'
+        rsn: 'RSK17CS024',
+        name: 'Prathik',
+        branch: 'CS',
+        gender: 'M',
+        phno: 'prathik@gmail.com',
+        role: 'Members',
+        loginStatus: 'NO'
     },
     {
-        rsn: 3,
-        name: 'omkar',
-        age: 56,
-        email: 'omkar@example.com'
+        rsn: 'RSK17CS022',
+        name: 'Omkar',
+        branch: 'CS',
+        gender: 'M',
+        phno: 'omkar@gmail.com',
+        role: 'Members',
+        loginStatus: 'NO'
     },
     {
-        rsn: 4,
-        name: 'prathik',
-        age: 48,
-        email: 'prathik@example.com'
+        rsn: 'RSK17CS023',
+        name: 'Tarun',
+        branch: 'CS',
+        gender: 'M',
+        phno: 'Tarun@gmail.com',
+        role: 'Members',
+        loginStatus: 'NO'
     }
 ];
