@@ -16,6 +16,10 @@ app.get('/users', function(request, response){
 
     response.render('users', {users: constants});
 });
+app.get('/users/:rsn',(req,res)=>{
+    console.log(req.params.rsn);
+    res.render('profile',{users: constants[req.params.rsn]});
+});
  
 
  
