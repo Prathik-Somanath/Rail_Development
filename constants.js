@@ -31,7 +31,7 @@ module.exports = [
         name: 'Tarun',
         branch: 'CS',
         gender: 'M',
-        phno: 975342133,
+        phno: 9753421353,
         role: 'Members',
         loginStatus: 'NO'
     }
