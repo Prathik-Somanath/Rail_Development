@@ -26,17 +26,17 @@
                 </thead>
                 <tbody>
                     
-                      <% users.forEach(function(user){ %>
+                  <% users.forEach(function(user){ %> 
                         <tr>
-                          <th><%= user.rsn %> <a href='/user/<%= user.name %>'></a></th>
-                          <th><%= user.name %> </th>
-                          <th><%= user.branch %> </th>
-                          <th><%= user.gender %></th>
-                          <th><%= user.phno %></th>
-                          <th><%= user.role %></th>
-                          <th><%= user.loginStatus %></th>
+                          <th><a href='/user/<%= user.rsn %>'><%= user.rsn %></a></th>
+                          <th><%= users.y.name %> </th>
+                          <th><%= users.y.branch %> </th>
+                          <th><%= users.y.gender %></th>
+                          <th><%= users.y.phno %></th>
+                          <th><%= users.y.role %></th>
+                          <th><%= users.y.loginStatus %></th>
                         </tr>   
-                      <% }) %>
+                   <% } %>
                                      
                 </tbody>
              </table>       

@@ -1,9 +1,10 @@
-module.exports = [{
+module.exports = [
+    {
         rsn: 'RSK17CS023',
         name: 'Prajwal',
         branch: 'CS',
         gender:'M',
-        phno: 'prajwal@gmail.com',
+        phno: 9839434222,
         role: 'Members',
         loginStatus: 'NO'
     },
@@ -12,7 +13,7 @@ module.exports = [{
         name: 'Prathik',
         branch: 'CS',
         gender: 'M',
-        phno: 'prathik@gmail.com',
+        phno: 8423341123,
         role: 'Members',
         loginStatus: 'NO'
     },
@@ -21,16 +22,16 @@ module.exports = [{
         name: 'Omkar',
         branch: 'CS',
         gender: 'M',
-        phno: 'omkar@gmail.com',
+        phno: 9342432221,
         role: 'Members',
         loginStatus: 'NO'
     },
     {
-        rsn: 'RSK17CS023',
+        rsn: 'RSK17CS036',
         name: 'Tarun',
         branch: 'CS',
         gender: 'M',
-        phno: 'Tarun@gmail.com',
+        phno: 975342133,
         role: 'Members',
         loginStatus: 'NO'
     }
